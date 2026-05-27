@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>张昊 - 个人简历</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="resume">
+  <!-- ====== Left Sidebar ====== -->
+  <aside class="sidebar">
+    <div class="sidebar-bg-decor"></div>
+    <div class="sidebar-inner">
+      <div class="avatar-wrap">
+        <img src="1.jpg" alt="张昊" class="avatar-img">
+      </div>
+      <h1 class="sidebar-name">张昊</h1>
+      <p class="sidebar-role">湖南省工业设计创新平台主任</p>
+
+      <div class="sidebar-info">
+        <div class="info-row">
+          <span class="info-label">学校</span>
+          <span class="info-val">湖南大学</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">学历</span>
+          <span class="info-val">硕士研究生 · 研一</span>
+        </div>
+      </div>
+
+      <div class="sidebar-contact">
+        <h3>联系方式</h3>
+        <a href="mailto:zhanghao216@hnu.edu.cn" class="contact-item">
+          <span class="ci-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+          </span>
+          zhanghao216@hnu.edu.cn
+        </a>
+        <a href="https://github.com/jhbutter" target="_blank" rel="noopener" class="contact-item">
+          <span class="ci-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12 24 5.37 18.63 0 12 0z"/></svg>
+          </span>
+          github.com/jhbutter
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ====== Right Content ====== -->
+  <main class="content">
+
+    <!-- About / Summary -->
+    <div class="summary-card">
+      <div class="summary-icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-7 8-7s8 3 8 7"/></svg>
+      </div>
+      <p>湖南大学硕士研究生，计算机视觉方向。研究聚焦于动态场景重建与渲染（3DGS/4DGS、NeRF）、AR 交互设计与移动端实时视觉计算。具备完整的视觉算法设计、编码实现与性能调优能力，熟悉影视级视觉特效底层实现，可独立完成算法项目从需求分析到效果验证的全流程落地。</p>
+    </div>
+
+    <!-- Grid cards for skills -->
+    <div class="card-grid">
+
+      <!-- 编程语言 -->
+      <div class="card accent-blue">
+        <div class="card-head">
+          <span class="card-dot"></span>
+          <h2>编程语言</h2>
+        </div>
+        <p>熟练使用 <strong>Python、C/C++、Kotlin、Java</strong> 开展视觉算法开发与移动端应用构建，熟悉各语言的语法特性与编码规范。掌握循环冗余化简、计算量裁剪、内存复用、分支优化等基础代码调优手段，能够针对图像逐像素运算、循环采样等高频逻辑做简易性能优化。具备完整的 Android NDK 开发能力，可独立完成算法原型搭建、功能迭代与版本维护。</p>
+        <div class="tags">
+          <span>Python</span><span>C/C++</span><span>Kotlin</span><span>Java</span><span>NDK</span><span>代码调优</span>
+        </div>
+      </div>
+
+      <!-- 视觉工具库 -->
+      <div class="card accent-cyan">
+        <div class="card-head">
+          <span class="card-dot"></span>
+          <h2>视觉工具库</h2>
+        </div>
+        <p>精通 <strong>OpenCV</strong> 计算机视觉开源库，熟练掌握图像/视频读写、通道分离合并、像素级运算、矩阵变换等基础接口。深入运用透视变换、几何形变、双线性/双三次插值、各类空域与频域滤波等核心功能。熟悉移动端 Camera2 / CameraX API 与逐帧图像处理管线，能够灵活调用 OpenCV 与 <strong>MediaPipe</strong> 等工具组合实现复杂实时视觉逻辑。</p>
+        <div class="tags">
+          <span>OpenCV</span><span>MediaPipe</span><span>Camera2</span><span>透视变换</span><span>插值算法</span><span>移动端图像管线</span>
+        </div>
+      </div>
+
+      <!-- 视觉特效 -->
+      <div class="card accent-indigo">
+        <div class="card-head">
+          <span class="card-dot"></span>
+          <h2>视觉特效</h2>
+        </div>
+        <p>深耕影视类视觉特效底层实现，独立完成<strong>希区柯克变焦（Dolly Zoom）</strong>动态镜头特效、<strong>星芒/光线拉丝</strong>光学特效、<strong>光绘（Light Painting）</strong>长曝光特效算法开发与 Android 原生应用落地。深入理解相机成像模型、镜头畸变矫正、画面透视关系等影视镜头原理；精通高亮区域提取、像素采样、多层画面叠加等特效实现方式，可根据视觉需求定制不同风格的镜头与光学效果。</p>
+        <div class="tags">
+          <span>Dolly Zoom</span><span>光绘</span><span>星芒特效</span><span>光线拉丝</span><span>镜头畸变矫正</span><span>长曝光合成</span>
+        </div>
+      </div>
+
+      <!-- 算法能力 -->
+      <div class="card accent-sky">
+        <div class="card-head">
+          <span class="card-dot"></span>
+          <h2>算法能力</h2>
+        </div>
+        <p>扎实掌握数字图像处理与三维视觉基础理论，透彻理解图像空间坐标变换、相机几何模型、多视图几何等核心底层逻辑。具备完整的视觉算法设计、编码实现、功能调试与性能调优能力，能够从原理出发拆解视觉需求、设计技术方案，针对算法耗时高、画面断层、效果失真等问题进行针对性优化。关注 3DGS/4DGS、NeRF 等动态场景重建与渲染前沿方法。</p>
+        <div class="tags">
+          <span>坐标变换</span><span>相机几何</span><span>多视图几何</span><span>3DGS</span><span>NeRF</span><span>动态场景重建</span>
+        </div>
+      </div>
+
+      <!-- 综合工程能力 -->
+      <div class="card accent-blue">
+        <div class="card-head">
+          <span class="card-dot"></span>
+          <h2>综合工程能力</h2>
+        </div>
+        <p>具备完整的算法项目落地思维与实操经验，覆盖 Android 原生应用（Camera2 / NDK / OpenGL ES）与后端视觉算法两大方向。擅长线上问题排查、视觉效果精细化调优、核心参数迭代调试，可独立完成需求分析、技术方案设计、代码开发、功能联调、效果验证、版本收尾全流程工作。具备较强的问题定位能力与自主钻研能力。近期致力于面向文旅场景的 3D 戏曲排演数字排练与智能渲染平台建设。</p>
+        <div class="tags">
+          <span>Android 全链路</span><span>方案设计</span><span>功能联调</span><span>效果验证</span><span>问题排查</span><span>文旅场景落地</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
